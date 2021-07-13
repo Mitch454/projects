@@ -8,6 +8,7 @@ This is a simple start page, to scrub up on css as well as an exercise in git.
 I suppose it might also be time to learn how to write **markdown**.
 
 
+
 ### This is a quoteblock
 
 > We trust you have received the usual lecture from the local System Administrator.
@@ -17,11 +18,15 @@ I suppose it might also be time to learn how to write **markdown**.
 >    3. With great power comes great responsibility.
 
 
+
+
 ## Heading 2
 
   * unordered lists
   * are almost as cool
   * as ordered lists
+
+
 
 ### Here is a codeblock
 
@@ -35,3 +40,5 @@ def randomSleep(num):
     print("waiting " + str(randWaits) + "s..")
     s(randWaits)
 ~~~
+
+
