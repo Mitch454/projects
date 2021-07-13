@@ -44,15 +44,17 @@ a:hover {
 
 #heading {
 	padding: 10px 0px 0px 0px;
-	font-family: 'Playball', cursive;
+    font-family: 'Permanent Marker', cursive;
 	font-size:3em;
     margin-bottom: 0px;
+    color: rgba(255,255,255,0.7);
 }
 
 
 #clock {
     font-family: 'Press Start 2P', cursive;
-    font-size:1.8rem
+    font-size:1.8rem;
+    color: rgba(255,255,255,0.3);
 }
 
 
@@ -62,6 +64,7 @@ h1 {
 
 h2 {
     padding: 0px 33px;
+    font-family: 'Permanent Marker', cursive;
 
 }
 
