@@ -4,15 +4,21 @@ This is a simple start page, to scrub up on css as well as an exercise in git.
 
 ## Heading 2
 
-I suppose, its also time to learn how to write **markdown**.
+
+I suppose it might also be time to learn how to write **markdown**.
 
 
-### These are lists
+### This is a quoteblock
 
-  1. Respect the privacy of others.
-  2. Think before you type.
-  3. With great power comes great responsibility.
-  
+> We trust you have received the usual lecture from the local System Administrator.
+> It usually boils down to these three things:
+    1. Respect the privacy of others.
+    2. Think before you type.
+    3. With great power comes great responsibility.
+
+
+## Heading 2
+
   * unordered lists
   * are almost as cool
   * as ordered lists
@@ -21,10 +27,11 @@ I suppose, its also time to learn how to write **markdown**.
 
 ~~~python
 import random
-def RandomSleep(num):
-    randWaits = 0
+from time import sleep as s
+
+def randomSleep(num):
     randWaits = random.uniform(num, (num + 1))
-    randWaits = float(("{:.2f}".format(round(randWaits, 2))))
-    time.sleep(randWaits)
-    print("sleeping for", str(randWaits) + "s.." )
+    randWaits = float(("{:.6f}".format(round(randWaits, 6))))
+    print("waiting " + str(randWaits) + "s..")
+    s(randWaits)
 ~~~
