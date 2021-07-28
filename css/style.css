@@ -16,7 +16,6 @@ body {
 }
 
 
-
 .content {
     width: 40%;
     height: auto;
@@ -51,14 +50,12 @@ a:hover {
     margin-bottom: 0px;
 }
 
-
 #clock {
     font-family: 'Press Start 2P', cursive;
 
     font-size:1.8rem;
     color: rgba(136,84,81, 0.75);
 }
-
 
 h1 {
 	text-align: center;
@@ -71,7 +68,6 @@ h2 {
     font-family: 'Covered By Your Grace', cursive;
 
 }
-
 
 ul {
     list-style-type: none;
