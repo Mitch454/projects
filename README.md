@@ -1,12 +1,10 @@
 # Startpage
 
-This is a simple start page, to scrub up on css as well as an exercise in git.
+This is a simple start page, to scrub up on css.
 
 ## Heading 2
 
-
 I suppose it might also be time to learn how to write **markdown**.
-
 
 
 ### This is a quoteblock
