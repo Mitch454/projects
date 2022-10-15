@@ -1,455 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mitch Pearce</title>
-    <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/2828f7885a.js"
-        integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-        crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <title>Mitch Pearce</title>
+  <meta name="description" content="">
+  <meta name="author" content="Mitch Pearce">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;700;&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@700;&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@900&display=swap" rel="stylesheet">
-
-    <link rel="icon" type="image/png" href="favicon.png" />
-
-
-
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeletal.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
-<style>
-    * {
-        font-family: 'Yantramanav', sans-serif;
-
-    }
-</style>
-
-<body>
 
 
-    <!-- Begin Scroll Up Button -->
+<body class="code-snippets-visible">
+  <div class="container">
+    <!-- HERO -->
+    <section class="u-center" id="about">
+      <div class="intro">
+        <h5 style="font-size:3rem;margin-bottom:-2.2rem;margin-top:4rem;">Hi, I'm</h5>
+        <h1 style="font-size:8rem;margin-bottom:-1rem;margin-top:0px;">Mitch Pearce.</h1>
+        <h5 style="font-size:2rem;margin-bottom:3rem;margin-top:2px;"></h5>
 
-
-
-    <form action="#home">
-        <button id="toTop" title="Go to top">
-            <i class="fas fa-angle-up"></i>
-        </button>
-    </form>
-    <!-- End Scroll Up Button -->
+        <p style="font-size:2rem;">I'm an I.T guy.. welcome to my landing page.<br> I will be showcasing some of my projects here soon.</p>
 
 
 
-
-    <!-- Begin Header -->
-    <div class="header-wrapper" id="home">
-        <!-- Begin Hero -->
-        <section class="hero is-large">
-            <!-- Begin Mobile Nav -->
-            <nav class="navbar is-transparent is-hidden-desktop">
-                <!-- Begin Burger Menu -->
-                <div class="navbar-brand">
-                    <div class="navbar-burger burger" data-target="mobile-nav">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-                <!-- End Burger Menu -->
-                <div id="mobile-nav" class="navbar-menu">
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#home">
-                                Home
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#about-me">
-                                About me
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#services">
-                                Services
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#skills">
-                                Skills
-                            </a>
-                        </div>
-                        <div class="navbar-item">
-                            <a class="navbar-item" href="#my-work">
-                                My Work
-                            </a>
-                        </div>
-                        <!-- <div class="navbar-item">
-                            <a class="navbar-item" href="#contact">
-                                Contact
-                            </a>
-                        </div> -->
-                    </div>
-                </div>
-            </nav>
-            <!-- End Mobile Nav -->
-
-
-            <nav class="navbar">
-                <div class="container">
-
-                    <div id="navMenu" class="navbar-menu"
-                        style="font-size:1.3rem;font-family:'Open Sans',Geneva, Tahoma, sans-serif">
-                        <div class="navbar-start">
-                            <a class="navbar-item brand-text" href="#home">
-                                Mitch Pearce
-                            </a>
-
-                            <a class="navbar-item" href="#about-me">
-                                About
-                            </a>
-
-
-                            <a class="navbar-item" href="#services">
-                                Services
-                            </a>
-
-
-                            <a class="navbar-item" href="#skills">
-                                Skills
-                            </a>
-
-                            <a class="navbar-item" href="#my-work">
-                                Projects
-                            </a>
-                            <!-- 
-
-                            <a class="navbar-item" href="#contact">
-                                Contact
-                            </a> -->
-
-
-                        </div>
-                    </div>
-            </nav>
-            <!-- END NAV -->
-
-
-            <!-- Begin Hero Content-->
-            <div class="hero-body">
-                <div class="container is-hidden-mobile">
-
-                    <h4 style="font-size:1.8rem; opacity:0.6;">Hi, my name is</h4>
-                    <h1 class="" style="font-size:5rem;opacity:0.9;">Mitch Pearce.</h1>
-                    <h1 class="" style="font-size:4rem;opacity:0.5;">I build things for the web.</h1>
-
-
-                </div>
-                <div class="container is-hidden-tablet">
-
-                    <h4 style="font-size:1.5rem; opacity:0.6;">Hi, my name is</h4>
-                    <h1 class="" style="font-size:3rem;opacity:0.9;">Mitch Pearce.</h1>
-                    <h1 class="" style="font-size:2rem;opacity:0.5;">I build things for the web.</h1>
-
-
-                </div>
-            </div>
-            <!-- End Hero Content-->
-
-        </section>
-        <!-- End Hero -->
-    </div>
-    <!-- End Header -->
-
-    <!-- Begin Main Content -->
-    <div class="main-content">
-        <!-- Begin About Me Section -->
-        <div class="section-light about-me dark-scheme" id="about-me">
-            <div class="container">
-                <div class="column is-12 about-me">
-                    <h1 class="title has-text-centered section-title">A little bit about me</h1>
-                </div>
-                <div class="columns is-multiline" style="font-size:1.8rem;">
-                    <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
-                        <p class="is-larger">
-
-                            <strong></strong>
-                        </p>
-                        <br />
-                        <p>
-                            I am a full stack engineer, cybersecurity practitioner and linux enthusiast.<br>
-                            I will be using this page to showcase some of my projects soon.<br>
-
-
-                            <br>
-
-                        </p>
-                        <br />
-                        <div class="is-divider"></div>
-                        <div class="columns about-links">
-                            <div class="column">
-                                <p class="heading">
-                                    <strong>Email</strong>
-                                </p>
-                                <p class="subheading">
-                                    <a style="color: #3c4172;"
-                                        href="mailto:Mitch.Pearce@Outlook.com">Mitch.Pearce@Outlook.com</a>
-                                </p>
-                            </div>
-                            <div class="column">
-                                <p class="heading">
-                                    <strong>Github</strong>
-                                </p>
-                                <p class="subheading">
-                                    <a style="color: #3c4172;" href="https://github.com/Mitch454">@Mitch454</a>
-                                </p>
-                            </div>
-
-                        </div> <br><br>
-                        <!-- <a class="is-size-4" style="color:#525ec9">CLICK HERE TO DOWNLOAD MY C.V</a> -->
-                    </div>
-
-                    <div class="column is-6 right-image " data-aos="fade-left">
-                        <img class="is-rounded" src="img/pane4.jpg" alt="" />
-                    </div>
-                </div>
-            </div>
+        <div class="links u-uppcase" style="color:orange">
+        <a style="color:orange" href="https://github.com/Mitch454">Github</a> | <a style="color:orange" href="https://www.linkedin.com/in/mitch-pearce-253176196">Linkedin</a>
         </div>
-        <!-- End About Me Content -->
+      
+       
+       
+      <br>  
+      <br> 
 
-
-
-        <!-- Begin Services Content -->
-        <div class="section-color services" id="services">
-            <div class="container">
-                <div class="columns is-multiline">
-                    <div class="column is-12 about-me" data-aos="fade-in" data-aos-easing="linear">
-                        <h1 class="title has-text-centered section-title">Services</h1>
-
-                        <h2 class="subtitle">
-
-                        </h2>
-
-                        <br />
-                    </div>
-                    <div class="columns is-12" style="font-weight:300;">
-                        <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-                            <i class="fas fa-code fa-3x"></i>
-
-                            <h2 class="is-size-3">Webhosting & Web design </h2>
-                            <hr />
-                            <h2 class="is-size-4">
-                                Need a landing page? I've got you covered.<br>
-                                From hosting, design, Wordpress to Django, I can help out with your next project.
-                                <br>
-                                <br>
-                            </h2>
-                        </div>
-
-                        <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-
-                            <i class="fas fa-rocket fa-3x"></i>
-
-
-                            <h2 class="is-size-3">Software Development</h2>
-                            <hr />
-
-                            <h2 class="is-size-4">
-                                Have an idea for an app or the next big thing?
-                                I do rapid prototyping and provide software expertise, I can help you choose the right
-                                technologies.
-                                <br>
-                                <br>
-                            </h2>
-                        </div>
-
-                        <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-                            <i class="fas fa-robot fa-3x"></i>
-
-                            <h2 class="is-size-3">Cybersecurity</h2>
-                            <hr />
-
-                            <h2 class="is-size-4">
-                                I can provide Cyber Essentials, vulnerabilty assessments,
-                                pentesting and information security consultation.
-                                <br>
-                                <br>
-                            </h2>
-                        </div>
-
-
-                    </div>
-
-
-
-
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="four columns u-uppcase">
+          <div >
+          <img class="col-img" src="img/code_icon-by-Freepik.png" width="100vw">
+          <br/>
+          ITIL, Infrastructure, Servers, Devops
+          </div>
         </div>
-        <!-- End Services Content -->
 
-
-
-        <!-- Begin Projects Content -->
-        <div class="section-dark my-work" id="my-work">
-            <div class="container">
-                <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
-                    <div class="column is-12">
-                        <h1 class="title has-text-centered section-title">Projects</h1>
-                        Projects coming soon
-                    </div>
-
-
-
-                    <div class="column is-4">
-                        <a href="#">
-                            <figure class="image is-2by1 work-item" style="background-image: url('img/pane2.jpg');">
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="column is-4">
-                        <a href="#">
-                            <figure class="image is-2by1 work-item" style="background-image: url('img/pane3.jpg');">
-                            </figure>
-                        </a>
-                    </div>
-
-                    <div class="column is-4">
-                        <a href="#">
-                            <figure class="image is-2by1 work-item" style="background-image: url('img/pane1.jpg');">
-                            </figure>
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="four columns u-uppcase">
+          <img class="col-img" src="img/hacker_icon-by-Talha-Dogar.png"  width="100vw" ><br/>
+          Cybersecurity practitioner & researcher
         </div>
-        <!-- End Projects Content -->
-
-
-        <!-- Begin Skills Content -->
-        <div class="section-dark skills" id="skills" style="background:rgba(68, 73, 106, 0.53);color:rgb(0, 0, 0);">
-
-            <div class="container px-4">
-                <div class="columns is-multiline">
-                    <div class="column is-12 about-me">
-                        <h1 class="title has-text-centered section-title">Skills</h1>
-                    </div>
-                    <div class="column is-6 is-size-4" data-aos="fade-in" data-aos-easing="linear">
-                        <h1>Linux Systems Administration</h1>
-                        <progress class="progress" value="90" max="100">88%</progress>
-                        <h1>Windows System Administration</h1>
-                        <progress class="progress" value="82" max="100">75%</progress>
-                        <h1>Network Infrastructure</h1>
-                        <progress class="progress" value="75" max="100">75%</progress>
-                        <h1>Cybersecurity</h1>
-                        <progress class="progress" value="65" max="100">65%</progress>
-                    </div>
-                    <div class="column is-6  is-size-4" data-aos="fade-in" data-aos-easing="linear">
-
-                        <h1>Backend code</h1>
-                        <progress class="progress" value="90" max="100">90%</progress>
-                        <h1>Frontend code</h1>
-                        <progress class="progress" value="62" max="100">65%</progress>
-                        <h1>Virtualization</h1>
-                        <progress class="progress" value="72" max="100">60%</progress>
-                        <h1>Googling</h1>
-                        <progress class="progress" value="98" max="100">98%</progress>
-                        <br><br>
-                        <br><br>
-                        <br><br>
-                    </div>
-
-                </div>
-            </div>
+        <div class="four columns u-uppcase">
+          <img class="col-img" src="img/linux-tux_icon-by-Freepik.png" width="100vw"><br/>
+          Linux & Open source enthusiast
         </div>
-        <!-- End Skills Content -->
+      </div>
 
 
 
+    </section>
 
+    <!-- <ul id="navigation" class="navbar u-center">
+      <li><a href="#about"><h6>About</h6></a></li>
+      <li><a href="#about"><h6>Blog</h6></a></li>
+      <li><a href="#projects"><h6>Projects</h6></a></li>
+      <li><a href="#contact"><h6>Contact</h6></a></li>
+    </ul> -->
 
+   
 
-
-
-
-        <!-- Begin Contact Content 
-        <div class="section-light contact" id="contact">
-            <div class="container">
-                <div class="columns is-multiline" data-aos="fade-in-up" data-aos-easing="linear">
-                    <div class="column is-12 about-me">
-                        <h1 class="title has-text-centered section-title">
-                            Get in touch
-                        </h1>
-                    </div>
-                    <div class="column is-8 is-offset-2">
-                        <form action="https://formspree.io/email@example.com" method="POST">
-                            <div class="field">
-                                <label class="label">Name</label>
-                                <div class="control has-icons-left">
-                                    <input class="input" type="text" placeholder="Ex. Jane Smith" name="Name" />
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-user"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label class="label">Email</label>
-                                <div class="control has-icons-left">
-                                    <input class="input" type="email" placeholder="Ex. hello@arctheme.com"
-                                        name="Email" />
-                                    <span class="icon is-small is-left">
-                                        <i class="fas fa-envelope"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <label class="label">Message</label>
-                                <div class="control">
-                                    <textarea class="textarea" placeholder="Textarea" name="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="field">
-                                <div class="control ">
-                                    <button class="button submit-button">
-                                        Submit&nbsp;&nbsp;
-                                        <i class="fas fa-paper-plane"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        
-        End Contact Content -->
-
-
-
-    </div>
-    <!-- End Main Content -->
-
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../js/showcase.js"></script>
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            easing: "ease-out",
-            duration: 800,
-        });
-    </script>
 </body>
-
 </html>
