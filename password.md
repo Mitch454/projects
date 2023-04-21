@@ -1,3 +1,8 @@
+layout: page
+title: "Password generator"
+permalink: /password
+
+
 <!DOCTYPE html>
 <html lang="en">
 
