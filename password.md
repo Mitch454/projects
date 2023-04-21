@@ -1,5 +1,5 @@
 layout: page
-title: "Password"
+title: "Password generator"
 permalink: /password
 
 
