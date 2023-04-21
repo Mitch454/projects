@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Mitch Pearce</title>
@@ -24,35 +25,37 @@
         <h1 style="font-size:8rem;margin-bottom:-1rem;margin-top:0px;">Mitch Pearce.</h1>
         <h5 style="font-size:2rem;margin-bottom:3rem;margin-top:2px;"></h5>
 
-        <p style="font-size:2rem;">I'm an I.T guy.. welcome to my landing page.<br> I will be showcasing some of my projects here soon.</p>
+        <p style="font-size:2rem;">I'm an I.T guy.. welcome to my landing page.<br> I will be showcasing some of my
+          projects here soon.</p>
 
 
 
         <div class="links u-uppcase" style="color:orange">
-        <a style="color:orange" href="https://github.com/Mitch454">Github</a> | <a style="color:orange" href="https://www.linkedin.com/in/mitch-pearce-253176196">Linkedin</a>
+          <a style="color:orange" href="https://github.com/Mitch454">Github</a> | <a style="color:orange"
+            href="https://www.linkedin.com/in/mitch-pearce-253176196">Linkedin</a>
         </div>
-      
-       
-       
-      <br>  
-      <br> 
+
+
+
+        <br>
+        <br>
 
       </div>
       <div class="row">
         <div class="four columns u-uppcase">
-          <div >
-          <img class="col-img" src="img/code_icon-by-Freepik.png" width="100vw">
-          <br/>
-          ITIL, Infrastructure, Servers, Devops
+          <div>
+            <img class="col-img" src="img/code_icon-by-Freepik.png" width="100vw">
+            <br />
+            ITIL, Infrastructure, Servers, Devops
           </div>
         </div>
 
         <div class="four columns u-uppcase">
-          <img class="col-img" src="img/hacker_icon-by-Talha-Dogar.png"  width="100vw" ><br/>
+          <img class="col-img" src="img/hacker_icon-by-Talha-Dogar.png" width="100vw"><br />
           Cybersecurity practitioner & researcher
         </div>
         <div class="four columns u-uppcase">
-          <img class="col-img" src="img/linux-tux_icon-by-Freepik.png" width="100vw"><br/>
+          <img class="col-img" src="img/linux-tux_icon-by-Freepik.png" width="100vw"><br />
           Linux & Open source enthusiast
         </div>
       </div>
@@ -60,15 +63,66 @@
 
 
     </section>
-<br>
-<br>
-    <div class="u-center">
+    <br>
+    <br>
 
-      <a href="/password.html"><h6>Password</h6></a>
 
-    </div>
+
+      <section class="u-center" id="about">
+
+        <h1 style="font-size:4rem;margin-bottom:1rem;margin-top:10px;">Password generator</h1>
+
+      </section>
+
+
+      <div class="u-center">
+        <!-- <h4>Password generator</h4> -->
+
+        <!-- <input type="text"> -->
+
+        <div class="pass" id="password-gen" style="margin:0 auto;">
+
+          <br>
+        </div>
+
+        <button class="click" onclick="genPass(18)">Generate</button><br>
+
+      </div>
+
+
+
+
+    <style>
+      .pass {
+        height: fit-content;
+        /* padding: 4px, 0; */
+        width: 40rem;
+        /* background-color: rgb(121, 121, 121); */
+        /* background-color: rgb(121, 121, 121); */
+      }
+    </style>
+
+    <script>
+
+      function genPass(len) {
+        var length = len + 6,
+          charset = "abcdefghijklmnopqrstuvwxyz.,/@~#;:<>?!%$£ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+          res = "";
+        for (var i = 0, n = charset.length; i < length; ++i) {
+          res += charset.charAt(Math.floor(Math.random() * n));
+        }
+        document.getElementById("password-gen").innerHTML = res
+      }
+    </script>
+
+
+</body>
+
+</html>
+
 
 
 
 </body>
+
 </html>
