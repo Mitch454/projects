@@ -31,12 +31,8 @@
         </div>
 
 
-
-        <br>
-        <br>
-
       </div>
-<!-- 
+      <!-- 
     <div class="row">
         <div class="four columns u-uppcase">
           <div>
@@ -82,21 +78,12 @@
       <br>
       <br>
 
-      <h1><a href="/password.html" style="font-size:4rem;margin-bottom:1rem;margin-top:10px;color:white;text-decoration: none;">Password generator</a></h1>
 
-      <section class="u-center" id="about">
-
-
-
-      </section>
-      <br>
-      <br>
-
-      <br>
 
       <div class="u-center">
-        <!-- <h4>Password generator</h4> -->
-
+        <h1><a href="/password.html"
+            style="font-size:4rem;margin-bottom:1rem;margin-top:10px;color:white;text-decoration: none;">Password
+            generator</a></h1>
         <!-- <input type="text"> -->
 
         <div class="pass" id="password-gen" style="margin:0 auto;">
@@ -117,7 +104,6 @@
       <div class="u-center">
 
 
-
       </div>
 
 
@@ -131,19 +117,19 @@
           /* background-color: rgb(121, 121, 121); */
         }
       </style>
-      
-    <script>
-      function genPass(len) {
-        var length = len;
-        var charset = "abcdefghijklmnopqrstuvwxyz.,/@~#;:<>?!%$£ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        var res = "";
-        var charsetLength = charset.length;
-        for (var i = 0; i < length; ++i) {
-          res += charset.charAt(Math.floor(Math.random() * charsetLength));
+
+      <script>
+        function genPass(len) {
+          var length = len;
+          var charset = "abcdefghijklmnopqrstuvwxyz.,/@~#;:<>?!%$£ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+          var res = "";
+          var charsetLength = charset.length;
+          for (var i = 0; i < length; ++i) {
+            res += charset.charAt(Math.floor(Math.random() * charsetLength));
+          }
+          document.getElementById("password-gen").textContent = res;
         }
-        document.getElementById("password-gen").textContent = res;
-      }
-    </script>
+      </script>
 
 
 
